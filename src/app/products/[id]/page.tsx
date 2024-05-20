@@ -1,4 +1,4 @@
-import PriceTag from "@/app/components/PriceTag"
+import PriceTag from "@/components/PriceTag"
 import { prisma } from "@/lib/db/prisma"
 import { Metadata } from "next";
 import Image from "next/image"
