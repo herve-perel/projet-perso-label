@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/db/prisma";
 import Image from "next/image";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "../components/ProductCard";
 import Link from "next/link";
 
 export default async function Home() {
