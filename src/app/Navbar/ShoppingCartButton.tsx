@@ -25,8 +25,8 @@ export default function ShoppingCartButton({ cart }: ShoppingCartProps) {
                     <span className='badge badge-sm indicator-item text-secondary'>{cart?.size || 0}</span>
                 </div>
             </label>
-            <div tabIndex={0} className='card dropdown-content card-compact mt-3 w-52 bg-slate-500 shadow'>
-                <div className='card-body z-10'>
+            <div tabIndex={0} className='card dropdown-content card-compact mt-3 w-52 bg-slate-500 shadow z-30'>
+                <div className='card-body'>
                     <span className='text-lg font-bold'>{cart?.size} Articles</span>
                     <span className='text-info'>Total: {formatPrice(cart?.subtotal || 0)}</span>
                     <div className='card-actions'>
